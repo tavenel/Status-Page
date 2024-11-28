@@ -52,6 +52,7 @@ jobs:
         env:
           SOURCES: |
             Website->https://www.avenel.pro
+            cloud.avenel.pro->https://cloud.avenel.pro
           GITHUB_TOKEN: ${{ github.token }}
           JOB_NAME: ${{ github.workflow }}
           ARTIFACT_NAME: ${{ env.ARTIFACT_NAME }}
