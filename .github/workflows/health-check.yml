@@ -51,8 +51,7 @@ jobs:
         id: metrics
         env:
           SOURCES: |
-            GitHub->https://github.com
-            Facebook->https://facebook.com
+            Website->https://www.avenel.pro
           GITHUB_TOKEN: ${{ github.token }}
           JOB_NAME: ${{ github.workflow }}
           ARTIFACT_NAME: ${{ env.ARTIFACT_NAME }}
